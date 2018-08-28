@@ -1,24 +1,54 @@
-h1{
+body{
+    background-color: #fff;
+}
+h1 {
     text-align: center;
-}
-
-
-.panel-heading{
-    background-color: #ff0;
-}
-.panel-body{
-    background-color:rgb(163, 174, 236); 
-}
-
-.jumbotron {
-    background-color: rgba(238, 20, 20, 0.918);
-    color: #fff;
   }
-.well {
+  
+  
+  .well {
+    background-color: rgba(0, 0, 0, 0);
     border: 0;
     margin: auto;
     text-align: center;
   }
+  
+  .jumbotron {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+  
+  }
+  
+  .btn-lg {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  
+  .dice {
+    margin: 0 auto;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 80px;
+  }
+  
+  .panel {
+    width: 450px;
+    margin: 0 auto;
+    background-color: rgba(243, 10, 204, 0.8);
+    color: #fff;
+    border: 0 solid #86682F;
+  }
+  
+  .panel-heading {
+    background-color: rgb(109, 160, 236);
+  }
+  
   .activeUser {
     background-color: green;
   }
+  
+  
