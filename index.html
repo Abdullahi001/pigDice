@@ -11,6 +11,43 @@
     <script src="js/scripts.js"></script>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Let's play Pig Dice!</h1>
+        </div>
+        <div class="well">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="panel">
+                <div id="playerOnePanel" class="panel-heading">
+                  <h2>Player 1</h2>
+                </div>
+                <div class="panel-body">
+                  <h3>Turn Score: </h3><span id="playerOneTurnScore"></span>
+                  <h3>Game Score: </h3><span id="playerOneGameScore"></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="panel">
+                <div id="player2panel" class="panel-heading">
+                  <h2>Player 2</h2>
+                </div>
+                <div class="panel-body">
+                  <h3>Turn Score: </h3><span id="PlayerTwoTurnSco"></span>
+                  <h3>Game Score: </h3><span id="playerTwoGameScore"></span>
+                </div>
+              </div>
+            </div>
+  
+            <button class="btn-lg" id="roll"> Roll</button>
+            <button class="btn-lg" id="hold"> Hold</button>
+            <br><br>
+            <button type="button" class="btn-lg" onclick="location.reload()">New Game</button>
+            <h3><ul id="rolledNumber">
+            </ul></h3>
+  
+        </div>
+      </div>
 </body>
 </html>
